@@ -9,15 +9,16 @@ tags:        # 所属标签
 publish: true  # 文章是否发布
 ---
 
-# requests库的使用（非常详细）
+# 一、requests库的使用（非常详细）
 
-##  Requests 的安装
+##  1、Requests的安装
 在电脑主界面Windows+R，然后输入“cmd”进入命令行窗口
 ```python
 # 安装requests库 
-
 pip install requests
 
+# 引入模块
+import requests
 ```
 我这里已经下载过了
 ![image-20240521222339167](/assets/python%E7%88%AC%E8%99%AB/%E8%8E%B7%E5%8F%96%E7%BD%91%E9%A1%B5/01.png)
@@ -33,7 +34,7 @@ pip install requests
 
 - 中文文档：https://docs.python-requests.org/zh_CN/latest/user/quickstart.html
 
-##  Requests 基本使用
+##  2、Requests 基本使用
 
 ``` python
 import requests
@@ -59,7 +60,7 @@ print(req.text)
 ```
 ![image-20240521222339167](/assets/python%E7%88%AC%E8%99%AB/%E8%8E%B7%E5%8F%96%E7%BD%91%E9%A1%B5/02.png)
 
-## Requests基本请求方式
+## 3、Requests基本请求方式
 
 
 | 方法名称          | HTTP 请求类型 | 描述                         |
@@ -72,7 +73,7 @@ print(req.text)
 | requests.delete() | DELETE        | 用于请求服务器删除指定资源。 |
 
 
-### get请求
+### 3-1.get请求
 
 ```python
 # requests.request()
@@ -96,7 +97,7 @@ url = 'https://httpbin.org/get'
 response = requests.get(url)  # 使用requests.get()方法发送GET请求  
 print(response.text)  # 打印响应的文本内容
 ```
-### head请求
+### 3-2.head请求
 
 ```python
 # requests.head()
@@ -109,7 +110,7 @@ response = requests.head(url)  # 使用requests.head()方法发送HEAD请求
 print(response.headers)  # 打印响应的头部信息
 ```
 
-### post请求
+### 3-3.post请求
 
 ```python
 # requests.post()
@@ -123,7 +124,7 @@ response = requests.post(url, data=payload)  # 使用requests.post()方法发送
 print(response.text)  # 打印响应的文本内容
 ```
 
-### put请求
+### 3-4.put请求
 
 ```python
 # requests.put()
@@ -137,7 +138,7 @@ response = requests.put(url, data=payload)  # 使用requests.put()方法发送PU
 print(response.text)  # 打印响应的文本内容
 ```
 
-### patch请求
+### 3-5.patch请求
 
 ```python
 # requests.patch()
@@ -151,7 +152,7 @@ response = requests.patch(url, data=payload)  # 使用requests.patch()方法发�
 print(response.text)  # 打印响应的文本内容
 ```
 
-### delete请求
+### 3-6.delete请求
 
 ```python
 # requests.delete()
@@ -163,7 +164,7 @@ url = 'https://httpbin.org/delete'
 response = requests.delete(url)  # 使用requests.delete()方法发送DELETE请求  
 print(response.text)  # 打印响应的文本内容
 ```
-### 常用属性和方法
+## 4、常用属性和方法
 
 
 
@@ -199,7 +200,7 @@ print(f"响应头部信息: {response.headers}")
 ![image-20240521222339167](/assets/python%E7%88%AC%E8%99%AB/%E8%8E%B7%E5%8F%96%E7%BD%91%E9%A1%B5/03.png)
 
 
-## 语法格式
+## 5、语法格式
 
 ```python
 import requests  # 导入requests库，这是一个用于发送HTTP请求的Python库
