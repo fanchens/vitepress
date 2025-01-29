@@ -79,19 +79,62 @@ export const    sidebar= {
         {
             text: '环境安装',
             items: [
-                {text: '学习说明', link: '/backend/python/python基础/index'},
-                {text: 'py2', link: '/backend/python/python基础/python环境安装/py介绍'},
-                {text: 'py3', link: '/backend/python/python基础/python环境安装/安装py解释器'},
+                {text: 'Python介绍', link: '/backend/python/python基础/index'},
+                {text: '安装Python解释器', link: '/backend/python/python基础/python环境安装/安装py解释器'},
+                {text: '安装Python编辑器', link: '/backend/python/python基础/python环境安装/安装py编辑器'},
             ],
         },
         {
            text: '数据类型',
+           collapsible: true, // 启用了折叠功能
+           collapsed: true,   // 初始状态下是折叠
            items: [
-              // {text: '&quot;CSS&quot;', link: '/frontend/html/indexc'},
-               {text: '数据类型', link: '/backend/python基础/数据类型/py数据类型'},
-            //    {text: '&quot;CSS&quot;', link: '/frontend/html/indexc'},
+               {text: '编程规范', link: '/backend/python/python基础/数据类型/编程规范'},
+               {text: '浮点型', link: '/backend/python/python基础/数据类型/01浮点型'},
+               {text: '整形', link: '/backend/python/python基础/数据类型/02整形'},
+               {text: '字符串', link: '/backend/python/python基础/数据类型/03字符串'},
+               {text: '布尔', link: '/backend/python/python基础/数据类型/04布尔'},
+               {text: '字符转换', link: '/backend/python/python基础/数据类型/05字符转换'},
+               {text: '运算符', link: '/backend/python/python基础/数据类型/06运算符'},
+               {text: '字符串格式化', link: '/backend/python/python基础/数据类型/07字符串格式化'},
+            //    {text: '&quot;CSS&quot;', link: '/frontend/html/01浮点型'},
            ],
        },
+       {
+        text: '流程控制',
+        collapsible: true, // 启用了折叠功能
+        collapsed: true,   // 初始状态下是折叠
+        items: [
+            {text: 'if判断', link: '/backend/python/python基础/流程控制/01if判断'},
+            {text: 'for循环', link: '/backend/python/python基础/流程控制/02for循环'},
+            {text: 'while循环', link: '/backend/python/python基础/流程控制/03while循环'},
+            // {text: '字符串', link: '/backend/python/python基础/流程控制/03字符串'},
+            // {text: '布尔', link: '/backend/python/python基础/流程控制/04布尔'},
+            // {text: '字符转换', link: '/backend/python/python基础/流程控制/05字符转换'},
+            // {text: '运算符', link: '/backend/python/python基础/流程控制/06运算符'},
+            // {text: '字符串格式化', link: '/backend/python/python基础/流程控制/07字符串格式化'},
+         //    {text: '&quot;CSS&quot;', link: '/frontend/html/01浮点型'},
+        ],
+    },
+
+    {
+        text: '数据结构',
+        collapsible: true, // 启用了折叠功能
+        collapsed: true,   // 初始状态下是折叠
+        items: [
+            {text: '列表', link: '/backend/python/python基础/数据结构/01列表'},
+            {text: '元组', link: '/backend/python/python基础/数据结构/02元组'},
+            {text: '字典', link: '/backend/python/python基础/数据结构/03字典'},
+            {text: '集合', link: '/backend/python/python基础/数据结构/04集合'},
+            // {text: '布尔', link: '/backend/python/python基础/流程控制/04布尔'},
+            // {text: '字符转换', link: '/backend/python/python基础/流程控制/05字符转换'},
+            // {text: '运算符', link: '/backend/python/python基础/流程控制/06运算符'},
+            // {text: '字符串格式化', link: '/backend/python/python基础/流程控制/07字符串格式化'},
+         //    {text: '&quot;CSS&quot;', link: '/frontend/html/01浮点型'},
+        ],
+    },
+
+
     ],
 
 
@@ -107,6 +150,8 @@ export const    sidebar= {
         },
         {
            text: '获取网页',
+           collapsible: true, // 启用了折叠功能
+           collapsed: true,   // 初始状态下是折叠
            items: [
 
                {text: 'requests', link: '/backend/python/python爬虫基础/获取网页/requests'},
@@ -116,6 +161,8 @@ export const    sidebar= {
        },
        {
         text: '解析网页',
+        collapsible: true, // 启用了折叠功能
+        collapsed: true,   // 初始状态下是折叠
         items: [
 
             {text: 're正则', link: '/backend/python/python爬虫基础/解析网页/re'},
@@ -127,6 +174,8 @@ export const    sidebar= {
     },
     {
         text: '数据存储',
+        collapsible: true, // 启用了折叠功能
+        collapsed: true,   // 初始状态下是折叠
         items: [
 
             {text: 'text', link: '/backend/python/python爬虫基础/数据存储/text'},

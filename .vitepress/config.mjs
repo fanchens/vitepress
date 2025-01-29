@@ -55,7 +55,7 @@ export default defineConfig({
       
     // },
     
-    outlineTitle:"页面导航", 
+    outlineTitle:"目录", 
     outline:[1,3],
    
     logo: '/assets/img/comet.png',    // 导航栏 Logo
