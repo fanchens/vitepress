@@ -9,7 +9,7 @@ tags:        # 所属标签
 publish: true  # 文章是否发布
 ---
 
-# 一、Xpath库的使用（非常详细）
+<h1>Xpath库的使用（非常详细）</h1>
 
 ## 1、Xpath的安装
 在电脑主界面Windows+R，然后输入“cmd”进入命令行窗口
@@ -193,7 +193,7 @@ for li in e_result:
 
 ## 5、实例
 
-5-1.小说名称
+### 5-1.语法结构  小说名称
 
 ```python
 import requests
@@ -218,7 +218,7 @@ for link in links:
 
 
 
-5-2.图片
+### 5-2.图片
 
 ```python
 import requests
