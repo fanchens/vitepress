@@ -15,12 +15,12 @@ export const    nav= [
               { text: '前端基础', items:[
                 { text: 'HTML & CSS', link: '/frontend/html/' },
                 { text: 'JavaScript', link: '/frontend/js/' },
-                { text: 'Vue', link: '/frontend/vue/' },
               ]},
     
               { text: 'Vue', items:[
-                { text: '前端学习笔记', link: '/guide/前端学习笔记/' },
-                { text: 'Java学习笔记', link: '/guide/japanese/' }
+                // { text: 'Vue2', link: '/frontend/vue2/' },
+                { text: 'Vue3', link: '/frontend/vue3/' },
+                // { text: 'Java学习笔记', link: '/guide/japanese/' }
               ]},
              
             ]
@@ -55,7 +55,7 @@ export const    nav= [
               { text: 'Python爬虫', items:[
                 // { text: 'Django', link: '/backend/python/django' },
                 { text: '爬虫基础', link: '/backend/python/python爬虫基础' },
-                { text: '爬虫进阶', link: '/backend/python/django' },
+                // { text: '爬虫进阶', link: '/backend/python/django' },
                 
                 // { text: 'Java学习笔记', link: '/guide/japanese/' }
               ]},
