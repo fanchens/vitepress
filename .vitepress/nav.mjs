@@ -48,7 +48,7 @@ export const    nav= [
             items: [
               { text: 'Python基础', items:[
                 { text: '基础知识', link: '/backend/python/python基础/' },
-                // { text: '面向对象', link: '/backend/python/python基础/py面向对象' },
+                // { text: '面向对象', link: '/backend/python/py面向对象' },
                 // { text: '进阶内容', link: '/guide/japanese/' },
               ]},
     

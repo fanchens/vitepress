@@ -92,7 +92,7 @@ export const sidebar = {
                 { text: 'Vue指令', link: '/frontend/vue3/教程基础/03指令' },
                 { text: '侦听器', link: '/frontend/vue3/教程基础/04侦听器' },
                 { text: '组件', link: '/frontend/vue3/教程基础/05组件' },
-                { text: '模板引入', link: '/frontend/vue3/教程基础/06模板引入' },
+                { text: '模板引用', link: '/frontend/vue3/教程基础/06模板引入' },
                 { text: '路由', link: '/frontend/vue3/教程基础/07路由' },
                 { text: 'vuex状态管理', link: '/frontend/vue3/教程基础/08vuex状态管理' },
                 { text: 'axios网络请求库', link: '/frontend/vue3/教程基础/09axios网络请求库' },
@@ -157,13 +157,32 @@ export const sidebar = {
                 { text: '元组', link: '/backend/python/python基础/数据结构/02元组' },
                 { text: '字典', link: '/backend/python/python基础/数据结构/03字典' },
                 { text: '集合', link: '/backend/python/python基础/数据结构/04集合' },
-                // {text: '布尔', link: '/backend/python/python基础/流程控制/04布尔'},
-                // {text: '字符转换', link: '/backend/python/python基础/流程控制/05字符转换'},
-                // {text: '运算符', link: '/backend/python/python基础/流程控制/06运算符'},
-                // {text: '字符串格式化', link: '/backend/python/python基础/流程控制/07字符串格式化'},
-                //    {text: '&quot;CSS&quot;', link: '/frontend/html/01浮点型'},
             ],
         },
+
+        {
+            text: '基础案例',
+            collapsible: true, // 启用了折叠功能
+            collapsed: true,   // 初始状态下是折叠
+            items: [
+                { text: '学生信息管理系统', link: '/backend/python/python基础/基础案例/01' },
+            
+            ],
+        },
+        
+        {
+            text: '函数',
+            collapsible: true, // 启用了折叠功能
+            collapsed: true,   // 初始状态下是折叠
+            items: [
+                { text: '函数', link: '/backend/python/python基础/函数/01函数' },
+                { text: '函数的参数', link: '/backend/python/python基础/函数/02函数的参数' },
+                { text: '作用域', link: '/backend/python/python基础/函数/03作用域' },
+            
+            ],
+        },
+
+
 
 
     ],
