@@ -9,9 +9,9 @@ tags:        # 所属标签
 publish: true  # 文章是否发布
 ---
 
-# urllib库的使用（非常详细）
+<h1>urllib库的使用（非常详细）</h1>
 
-## urllib 库
+## 1、urllib 库
 
 
 ```python
@@ -21,7 +21,7 @@ import urllib.request
 urllib 库，它是 Python 内置的 HTTP 请求库，不需要额外安装即可使用，它包含四个模块
 
 
-## urllib库的主要模块
+## 2、urllib库的主要模块
 
 
 
@@ -33,7 +33,7 @@ urllib 库，它是 Python 内置的 HTTP 请求库，不需要额外安装即�
 | `urllib.robotparser`   | robots.txt解析模块，用于解析robots.txt文件   |
 
 
-### request 模块
+### 2-1.request 模块
 
 - `urlopen`：打开一个指定 URL，然后使用 read() 获取网页的 HTML 实体代码。
 
@@ -146,7 +146,7 @@ urllib.request.urlretrieve(url, '01.jpg')
 ![image-20240521222339167](/assets/python%E7%88%AC%E8%99%AB/%E8%8E%B7%E5%8F%96%E7%BD%91%E9%A1%B5/05.png)
 
 
-### parse 模块
+### 2-2.parse 模块
 
 - `quote`：（GET）参数进行 unicode 编码
 
@@ -292,23 +292,15 @@ print(obj)
 
 
 
-### error 模块（URLError 与 HTTPError）
+### 2-3.error 模块（URLError 与 HTTPError）
 
 
-### 
 HTTPError 类是 URLError 类的子类。
 
-导入包分别是：urllib.error.URLError、urllib.error.HTTPError。
+导入包分别是：`urllib.error.URLError`、`urllib.error.HTTPError`。
 
-通过 urllib 发送请求的时候，有可能发送失败，可以通过 try-except 进行异常捕获，异常有两类：URLError 与 HTTPError 类。
-
-
-### robotparser 模块
-
-# 待看csdn
-https://blog.csdn.net/yuan2019035055/article/details/144647250?ops_request_misc=%257B%2522request%255Fid%2522%253A%25228965e7a28981ed9125806b2f7165364b%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fcommercial.%2522%257D&request_id=8965e7a28981ed9125806b2f7165364b&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~insert_commercial~default-3-144647250-null-null.142^v101^pc_search_result_base8&utm_term=urllib%E8%AF%A6%E7%BB%86&spm=1018.2226.3001.4187
+通过 urllib 发送请求的时候，有可能发送失败，可以通过 `try-except` 进行异常捕获，异常有两类：`URLError` 与 `HTTPError` 类。
 
 
+### 2-4.robotparser 模块
 
-
-https://blog.csdn.net/zz00008888/article/details/127867808?ops_request_misc=&request_id=&biz_id=102&utm_term=urllib%E5%85%A5%E9%97%A8&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-127867808.142^v101^pc_search_result_base8&spm=1018.2226.3001.4187
