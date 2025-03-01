@@ -10,12 +10,11 @@ sidebar: false         #  sidebar: false   禁用侧边栏 auto 开启
 ---
 
 
-# 关于我
+<h1>关于我</h1>
 
 <h2>我是小宇，欢迎来到我的博客</h2>
 <p>本博客建于 2024 年 5 月 16 日，主要记录一些我的技术、学习、生活等方面的内容与分享。</p>
-<p>本博客使用了开源静态博客框架 vuepress，网站源码可通过<a href="https://github.com/fanchens/vuepress" target="_blank">github</a>  查看。</p>
-<p>有些东西可能不会，但是我能做出来(不要在意过程)就是这么神奇</p>
+<p>本博客使用了开源静态博客框架 vuepress，网站源码可通过<a href="https://github.com/fanchens/vitepress" target="_blank">github</a>  查看。</p>
 
 
 
